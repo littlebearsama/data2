@@ -1,0 +1,22 @@
+%YAML:1.0
+---
+m_complexCameraModel: 0
+m_imageSize: [ 640, 536 ]
+m_cameraMatrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 3.7359836656749917e+02, 0., 3.2612925385795216e+02, 0.,
+       3.7354761034641882e+02, 2.5734350253758220e+02, 0., 0., 1. ]
+m_isfisheye: 0
+m_distCoeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ -4.1540961250315178e-01, 2.0052315439591589e-01,
+       1.2716889189805548e-04, -2.2060812066820366e-04,
+       -4.9736265845936413e-02 ]
+m_patternSize: [ 11, 8 ]
+m_patternLength: [ 30., 30. ]
+m_iscircle: 0
+m_reprojectionError: 1.3555921614170074e-02

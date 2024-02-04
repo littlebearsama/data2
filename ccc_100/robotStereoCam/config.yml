@@ -1,0 +1,23 @@
+%YAML:1.0
+---
+IMAGE_HEIGHT: 536
+IMAGE_WIDTH: 640
+ZMQ_PC_IP: "tcp://192.168.78.133:5555"
+calibrateCam2RobotImagePath: "/oem/cfg/robotStereoCam/left.png"
+calibrateImagesPath: /mnt/UDISK/calibrateImage/
+calibrateOutPutPath: /oem/cfg/robotStereoCam/
+cam2RobotT: !!opencv-matrix
+   rows: 4
+   cols: 4
+   dt: f
+   data: [ 3.76684824e-03, -2.97016263e-01, 9.54864860e-01,
+       3.86409372e-01, -9.99969006e-01, -7.70568615e-03, 1.54800585e-03,
+       0.47921033e-01, 6.89798780e-03, -9.54841256e-01, -2.97035992e-01,
+       2.22011058e-01, 0., 0., 0., 1. ]
+depth_HEIGHT: 268
+depth_WIDTH: 320
+hasCam2RobotT: 1
+hasStereoModel: 1
+saveDataPath: /mnt/UDISK/data/out/
+stereoModelPath: /oem/cfg/robotStereoCam/320X268/model
+stereoModelPath2: /oem/cfg/robotStereoCam/640X536/model
